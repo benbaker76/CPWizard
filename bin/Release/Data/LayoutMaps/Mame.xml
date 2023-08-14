@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<LayoutMaps>
+  <LayoutMap Enabled="True" Constant="*" Control="Mahjong Control Panel" NumPlayers="*" Alternating="*" Layout="Mahjong" />
+  <LayoutMap Enabled="True" Constant="lightgun" Control="*" NumPlayers="*" Alternating="*" Layout="Lightgun" />
+</LayoutMaps>

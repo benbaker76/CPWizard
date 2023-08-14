@@ -1,0 +1,57 @@
+Just Buttons|button
+2-way Joystick (Horizontal)|joy2way
+2-way Joystick (Vertical)|vjoy2way
+4-way Joystick|joy4way
+Diagonal 4-way Joystick|joy4way
+8-way Joystick|joy8way
+Dual 2-way Joysticks (Horizontal)|doublejoy2way
+Dual 2-way Joysticks (Vertical)|vdoublejoy2way
+Dual 4-way Joysticks|doublejoy4way
+Dual 8-way Joysticks|doublejoy8way
+Dual 2-way Triggersticks (Vertical)|vdoublejoy2way
+Dual 4-way Triggersticks|doublejoy4way
+Dual 8-way Triggersticks|doublejoy8way
+8-way Triggerstick|joy8way
+8-way Top-Fire Joystick|joy8way
+8-way Rotary Joystick(Optical)|joy8way
+8-way Rotary Joystick(Optical)|dial
+8-way Rotary Joystick(Mechanical)|joy8way
+8-way Rotary Joystick(Mechanical)|dial
+49-way Joystick|stick
+Trackball|trackball
+Spinner|dial
+Push/Pull Spinner|dial
+Up/Down Shifter|button
+Roller(Horizontal)|dial
+Roller(Vertical)|vdial
+360 Steering Wheel|dial
+270 Steering Wheel|paddle
+Analog Stick|stick
+Flightstick (Analog)|stick
+Lightgun|lightgun
+Analog Gun|lightgun
+Throttle (Paddle)|paddle
+Throttle (Stick)|stickz
+Pedal (Microswitch)|button
+Pedal (Analog)|pedal
+Pedal2 (Analog)|pedal2
+High-Low Shifter|button
+4 Gear Shifter|button
+Paddle (Horizontal)|paddle
+Paddle (Vertical)|vpaddle
+Paddle (Microswitch)|button
+Trivia Buttons|button
+Misc Buttons|button
+Directional Buttons(4-way)|joy4way
+Directional Buttons(2-way left/right)|joy2way
+Directional Buttons(2-way up/down)|vjoy2way
+Batter Control|stick
+Football Kicker|stick
+Baseball Pitcher|stick
+Yoke|stick
+Handlebar|stickx
+Throttle (Handlebar)|sticky
+Hand Brake (Handlebar)|stickz
+Misc|other
+Mahjong Control Panel|other
+Turntable|dial

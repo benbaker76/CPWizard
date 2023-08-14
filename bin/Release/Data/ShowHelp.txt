@@ -1,0 +1,23 @@
+There are now 3 primary ways to use CPW and the new default method will not mess with state saves as it does not use Mame's pause key.
+
+Method 1 (Recommended Default):
+Mame Output System ON, Use Show Key ON, Send Pause ON, Pause Mode Message System, Detect Pause OFF
+
+With these settings CPW uses the Show Key set in the Input Options to display the CPW menu. This means CPW no longer interferes with save state. It also can unpause Mame automatically when you exit CPW. No diff patch is necessary!
+
+NOTE: Using this method you cannot set the Show Key to be the same as Mame's pause key.
+
+Method 2 (Detecting pause using Mame >= 112u2)
+Mame Output System ON, Use Show Key OFF, Send Pause OFF, Detect Pause ON
+
+With these settings pausing Mame will show CPW
+
+Method 3 (Older Method using diff patch):
+
+Mame Output System ON, Use Show Key OFF, Send Pause ON, Pause Mode Diff Patch Method, Detect Pause ON
+
+With these settings CPW detects when Mame is paused and then shows the CPW menu. To unpause Mame when you exit CPW you need to have the bezel_0129u2.zip diff patch applied.
+
+Method 4 (For older versions of Mame < 0.108):
+
+Mame Output System OFF, Use Show Key ON, Send Pause ON, Pause Mode Send Keys, Detect Pause OFF

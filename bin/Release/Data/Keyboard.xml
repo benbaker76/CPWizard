@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Keyboard Source="Keyboard.png">
+	<Keys>
+		<Key Name="" Uppercase="" X="5" Y="5" Width="37" Height="37"></Key>
+		<Key Name="1" Uppercase="!" X="47" Y="5" Width="37" Height="37"></Key>
+		<Key Name="2" Uppercase="@" X="89" Y="5" Width="37" Height="37"></Key>
+		<Key Name="3" Uppercase="#" X="131" Y="5" Width="37" Height="37"></Key>
+		<Key Name="4" Uppercase="$" X="173" Y="5" Width="37" Height="37"></Key>
+		<Key Name="5" Uppercase="%" X="215" Y="5" Width="37" Height="37"></Key>
+		<Key Name="6" Uppercase="^" X="257" Y="5" Width="37" Height="37"></Key>
+		<Key Name="7" Uppercase="&amp;" X="299" Y="5" Width="37" Height="37"></Key>
+		<Key Name="8" Uppercase="*" X="341" Y="5" Width="37" Height="37"></Key>
+		<Key Name="9" Uppercase="(" X="383" Y="5" Width="37" Height="37"></Key>
+		<Key Name="0" Uppercase=")" X="425" Y="5" Width="37" Height="37"></Key>
+		<Key Name="-" Uppercase="_" X="467" Y="5" Width="37" Height="37"></Key>
+		<Key Name="=" Uppercase="+" X="509" Y="5" Width="37" Height="37"></Key>
+		<Key Name="BkSp" Uppercase="BkSp" X="551" Y="5" Width="84" Height="37"></Key>
+		<Key Name="Tab" Uppercase="Tab" X="5" Y="47" Width="60" Height="37"></Key>
+		<Key Name="q" Uppercase="Q" X="70" Y="47" Width="37" Height="37"></Key>
+		<Key Name="w" Uppercase="W" X="112" Y="47" Width="37" Height="37"></Key>
+		<Key Name="e" Uppercase="E" X="154" Y="47" Width="37" Height="37"></Key>
+		<Key Name="r" Uppercase="R" X="196" Y="47" Width="37" Height="37"></Key>
+		<Key Name="t" Uppercase="T" X="238" Y="47" Width="37" Height="37"></Key>
+		<Key Name="y" Uppercase="Y" X="280" Y="47" Width="37" Height="37"></Key>
+		<Key Name="u" Uppercase="U" X="322" Y="47" Width="37" Height="37"></Key>
+		<Key Name="i" Uppercase="I" X="364" Y="47" Width="37" Height="37"></Key>
+		<Key Name="o" Uppercase="O" X="406" Y="47" Width="37" Height="37"></Key>
+		<Key Name="p" Uppercase="P" X="448" Y="47" Width="37" Height="37"></Key>
+		<Key Name="[" Uppercase="{" X="490" Y="47" Width="37" Height="37"></Key>
+		<Key Name="]" Uppercase="}" X="532" Y="47" Width="37" Height="37"></Key>
+		<Key Name="\" Uppercase="|" X="575" Y="47" Width="60" Height="37"></Key>
+		<Key Name="CapsLock" Uppercase="CapsLock" X="5" Y="89" Width="84" Height="37"></Key>
+		<Key Name="a" Uppercase="A" X="93" Y="89" Width="37" Height="37"></Key>
+		<Key Name="s" Uppercase="S" X="135" Y="89" Width="37" Height="37"></Key>
+		<Key Name="d" Uppercase="D" X="178" Y="89" Width="37" Height="37"></Key>
+		<Key Name="f" Uppercase="F" X="220" Y="89" Width="37" Height="37"></Key>
+		<Key Name="g" Uppercase="G" X="262" Y="89" Width="37" Height="37"></Key>
+		<Key Name="h" Uppercase="H" X="304" Y="89" Width="37" Height="37"></Key>
+		<Key Name="j" Uppercase="J" X="346" Y="89" Width="37" Height="37"></Key>
+		<Key Name="k" Uppercase="K" X="388" Y="89" Width="37" Height="37"></Key>
+		<Key Name="l" Uppercase="L" X="430" Y="89" Width="37" Height="37"></Key>
+		<Key Name=";" Uppercase=":" X="472" Y="89" Width="37" Height="37"></Key>
+		<Key Name="," Uppercase="&quot;" X="514" Y="89" Width="37" Height="37"></Key>
+		<Key Name="Enter" Uppercase="Enter" X="556" Y="89" Width="78" Height="37"></Key>
+		<Key Name="Shift" Uppercase="Shift" X="5" Y="131" Width="102" Height="37"></Key>
+		<Key Name="z" Uppercase="Z" X="112" Y="131" Width="37" Height="37"></Key>
+		<Key Name="x" Uppercase="X" X="154" Y="131" Width="37" Height="37"></Key>
+		<Key Name="c" Uppercase="C" X="196" Y="131" Width="37" Height="37"></Key>
+		<Key Name="v" Uppercase="V" X="238" Y="131" Width="37" Height="37"></Key>
+		<Key Name="b" Uppercase="B" X="280" Y="131" Width="37" Height="37"></Key>
+		<Key Name="n" Uppercase="N" X="322" Y="131" Width="37" Height="37"></Key>
+		<Key Name="m" Uppercase="M" X="364" Y="131" Width="37" Height="37"></Key>
+		<Key Name="," Uppercase="&lt;" X="406" Y="131" Width="37" Height="37"></Key>
+		<Key Name="." Uppercase="&gt;" X="448" Y="131" Width="37" Height="37"></Key>
+		<Key Name="/" Uppercase="?" X="491" Y="131" Width="37" Height="37"></Key>
+		<Key Name="Shift" Uppercase="Shift" X="533" Y="131" Width="102" Height="37"></Key>
+		<Key Name="`" Uppercase="~" X="157" Y="173" Width="37" Height="37"></Key>
+		<Key Name="Space" Uppercase="Space" X="199" Y="173" Width="200" Height="37"></Key>
+		<Key Name="Ins" Uppercase="Ins" X="404" Y="173" Width="37" Height="37"></Key>
+		<Key Name="Del" Uppercase="Del" X="446" Y="173" Width="37" Height="37"></Key>
+	</Keys>
+	<Colors>
+		<Color Name="[WHITE]" X="8" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[BLACK]" X="26" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[DARKBLUE]" X="44" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[DARKGREEN]" X="62" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[RED]" X="80" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[MAROON]" X="98" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[PURPLE]" X="117" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[ORANGE]" X="135" Y="177" Width="11" Height="11"></Color>
+		<Color Name="[YELLOW]" X="8" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[LIGHTGREEN]" X="26" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[CADETBLUE]" X="44" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[AQUA]" X="62" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[BLUE]" X="80" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[PINK]" X="98" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[DARKGRAY]" X="117" Y="195" Width="11" Height="11"></Color>
+		<Color Name="[GRAY]" X="135" Y="195" Width="11" Height="11"></Color>
+	</Colors>
+	<Smilies>
+		<Smilie Name=";)" X="496" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name=":P" X="513" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name=":)" X="531" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name="|)" X="548" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name="8)" X="566" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name=":O" X="584" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name=":(" X="601" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name="(^)" X="619" Y="177" Width="13" Height="13"></Smilie>
+		<Smilie Name="(?)" X="496" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name="(V)" X="513" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name="xx(" X="531" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name="8D" X="548" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name=":o)" X="566" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name=":I" X="584" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name=":D" X="601" Y="193" Width="13" Height="13"></Smilie>
+		<Smilie Name=":(!" X="619" Y="193" Width="13" Height="13"></Smilie>
+	</Smilies>
+</Keyboard>

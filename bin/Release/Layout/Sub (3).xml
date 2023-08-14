@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<Layout>
+  <Background>BlankBak.png</Background>
+  <LayoutSub />
+  <ShowMiniInfo>False</ShowMiniInfo>
+  <Images>
+    <Image Name="IMAGE_ICON" X="16" Y="56" Width="232" Height="232" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_STATUS_BAR" X="272" Y="320" Width="192" Height="24" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_COLOR_BAR" X="272" Y="360" Width="192" Height="24" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_GRAPHIC_BAR" X="272" Y="400" Width="192" Height="24" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_SOUND_BAR" X="752" Y="360" Width="192" Height="24" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_EMULATION_BAR" X="752" Y="320" Width="192" Height="24" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_SAVE_STATE" X="752" Y="392" Width="40" Height="40" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_CPU_CHIPS" X="272" Y="464" Width="264" Height="72" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_AUDIO_CHIPS" X="752" Y="464" Width="264" Height="72" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="IMAGE_STARS" X="16" Y="648" Width="384" Height="40" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+  </Images>
+  <ColorImages Enabled="False">
+    <ColorImage Name="Black" Image="T4ButtonBlack.png" />
+    <ColorImage Name="White" Image="T4ButtonWhite.png" />
+    <ColorImage Name="Red" Image="T4ButtonRed.png" />
+    <ColorImage Name="Yellow" Image="T4ButtonYellow.png" />
+    <ColorImage Name="Orange" Image="T4ButtonOrange.png" />
+    <ColorImage Name="Lime" Image="T4ButtonLime.png" />
+    <ColorImage Name="Green" Image="T4ButtonGreen.png" />
+    <ColorImage Name="Cyan" Image="T4ButtonCyan.png" />
+    <ColorImage Name="Blue" Image="T4ButtonBlue.png" />
+    <ColorImage Name="Purple" Image="T4ButtonPurple.png" />
+    <ColorImage Name="Violet" Image="T4ButtonViolet.png" />
+    <ColorImage Name="Magenta" Image="T4ButtonMagenta.png" />
+    <ColorImage Name="Brown" Image="T4ButtonBrown.png" />
+  </ColorImages>
+  <Labels>
+    <Label Name="[MISC_ROM_NAME]" Group="" X="244" Y="56" Width="319" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Bold" Color="Yellow" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_ROM_NAME]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_GAME_NAME]" Group="" X="244" Y="96" Width="329" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Yellow" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_GAME_NAME]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_MANUFACTURER]" Group="" X="244" Y="136" Width="388" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Red" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_MANUFACTURER]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_CATEGORY]" Group="" X="244" Y="176" Width="309" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_CATEGORY]" />
+      </Codes>
+    </Label>
+    <Label Name="Ver Added:" Group="" X="264" Y="216" Width="210" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Ver Added:" />
+      </Codes>
+    </Label>
+    <Label Name="NPlayers:" Group="" X="264" Y="256" Width="190" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="NPlayers:" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_NPLAYERS]" Group="" X="700" Y="256" Width="309" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_NPLAYERS]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_VER_ADDED]" Group="" X="680" Y="216" Width="329" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_VER_ADDED]" />
+      </Codes>
+    </Label>
+    <Label Name="Status:" Group="" X="104" Y="320" Width="150" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Status:" />
+      </Codes>
+    </Label>
+    <Label Name="Color:" Group="" X="124" Y="360" Width="130" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Color:" />
+      </Codes>
+    </Label>
+    <Label Name="Graphic:" Group="" X="84" Y="400" Width="170" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Graphic:" />
+      </Codes>
+    </Label>
+    <Label Name="Emulation:" Group="" X="524" Y="320" Width="210" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Emulation:" />
+      </Codes>
+    </Label>
+    <Label Name="Sound:" Group="" X="604" Y="360" Width="130" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Sound:" />
+      </Codes>
+    </Label>
+    <Label Name="SaveState:" Group="" X="524" Y="400" Width="210" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="SaveState:" />
+      </Codes>
+    </Label>
+    <Label Name="CPU:" Group="" X="163" Y="464" Width="91" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Red" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="CPU:" />
+      </Codes>
+    </Label>
+    <Label Name="Audio:" Group="" X="604" Y="464" Width="130" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Red" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Audio:" />
+      </Codes>
+    </Label>
+    <Label Name="Display:" Group="" X="84" Y="544" Width="170" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Yellow" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Display:" />
+      </Codes>
+    </Label>
+    <Label Name="Size:" Group="" X="144" Y="584" Width="110" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Yellow" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Size:" />
+      </Codes>
+    </Label>
+    <Label Name="Rotate:" Group="" X="584" Y="544" Width="150" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Yellow" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Rotate:" />
+      </Codes>
+    </Label>
+    <Label Name="Refresh:" Group="" X="564" Y="584" Width="170" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="Yellow" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Refresh:" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_DISPLAY]" Group="" X="244" Y="544" Width="289" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_DISPLAY]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_SIZE]" Group="" X="244" Y="584" Width="230" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_SIZE]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_ROTATE]" Group="" X="725" Y="544" Width="269" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_ROTATE]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_REFRESH]" Group="" X="724" Y="584" Width="289" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_REFRESH]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_VOTES]" Group="" X="440" Y="656" Width="249" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_VOTES]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_AVERAGE]" Group="" X="716" Y="656" Width="289" Height="36" Sizeable="False" Arrow="True" Spot="False">
+      <Font Name="Lucida Console" Size="24" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_AVERAGE]" />
+      </Codes>
+    </Label>
+  </Labels>
+</Layout>

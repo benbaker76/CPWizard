@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Layout>
+  <Background>LightningBak.png</Background>
+  <LayoutSub />
+  <ShowMiniInfo>False</ShowMiniInfo>
+  <Images>
+    <Image Name="T3JoystickOmniRed.png" X="616" Y="312" Width="40" Height="69" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="">
+      <Color Hue="201" Saturation="1" Brightness="1" />
+    </Image>
+    <Image Name="T3JoystickOmniRed.png" X="80" Y="184" Width="40" Height="69" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="">
+      <Color Hue="142" Saturation="1" Brightness="1" />
+    </Image>
+    <Image Name="T4ButtonYellow.png" X="848" Y="208" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="648" Y="392" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="360" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="704" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="704" Y="368" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="704" Y="336" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2TrackballBlue.png" X="464" Y="320" Width="96" Height="96" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="304" Y="392" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonP2.png" X="736" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="328" Y="336" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="912" Y="176" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="392" Y="336" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="152" Y="264" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="840" Y="272" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="672" Y="336" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="304" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonWhite.png" X="912" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="672" Y="368" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlack.png" X="800" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="96" Y="280" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="864" Y="240" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T3JoystickOmniRed.png" X="792" Y="208" Width="40" Height="69" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="">
+      <Color Hue="59" Saturation="1" Brightness="1" />
+    </Image>
+    <Image Name="T4ButtonBlue.png" X="736" Y="336" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="200" Y="248" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="360" Y="368" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="880" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="392" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="736" Y="368" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="880" Y="192" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="928" Y="208" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonYellow.png" X="896" Y="224" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="120" Y="248" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T3JoystickOmniRed.png" X="272" Y="312" Width="40" Height="69" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2Spinner.png" X="432" Y="112" Width="48" Height="48" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="168" Y="232" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonP1.png" X="272" Y="104" Width="32" Height="32" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="328" Y="368" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="136" Y="216" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="576" Y="120" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="656" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="184" Y="280" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonRed.png" X="392" Y="368" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlue.png" X="624" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T3JoystickOmniRed.png" X="496" Y="96" Width="40" Height="69" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="">
+      <Color Hue="201" Saturation="1" Brightness="1" />
+    </Image>
+    <Image Name="T4ButtonRed.png" X="360" Y="336" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonGreen.png" X="136" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonBlack.png" X="200" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T4ButtonWhite.png" X="104" Y="104" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+  </Images>
+  <ColorImages Enabled="True">
+    <ColorImage Name="Black" Image="T4ButtonBlack.png" />
+    <ColorImage Name="White" Image="T4ButtonWhite.png" />
+    <ColorImage Name="Red" Image="T4ButtonRed.png" />
+    <ColorImage Name="Yellow" Image="T4ButtonYellow.png" />
+    <ColorImage Name="Orange" Image="T4ButtonOrange.png" />
+    <ColorImage Name="Lime" Image="T4ButtonLime.png" />
+    <ColorImage Name="Green" Image="T4ButtonGreen.png" />
+    <ColorImage Name="Cyan" Image="T4ButtonCyan.png" />
+    <ColorImage Name="Blue" Image="T4ButtonBlue.png" />
+    <ColorImage Name="Purple" Image="T4ButtonPurple.png" />
+    <ColorImage Name="Violet" Image="T4ButtonViolet.png" />
+    <ColorImage Name="Magenta" Image="T4ButtonMagenta.png" />
+    <ColorImage Name="Brown" Image="T4ButtonBrown.png" />
+  </ColorImages>
+  <Labels>
+    <Label Name="[MISC_P1_INPUTTYPE]" Group="" X="43" Y="456" Width="189" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_P1_INPUTTYPE]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_MISC_DETAILS]" Group="" X="15" Y="552" Width="992" Height="88" Sizeable="True" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_MISC_DETAILS]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_P2_INPUTTYPE]" Group="" X="795" Y="456" Width="189" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_P2_INPUTTYPE]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_ALTERNATING]" Group="" X="419" Y="64" Width="185" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_ALTERNATING]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_NUM_PLAYERS]" Group="" X="415" Y="32" Width="192" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_NUM_PLAYERS]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_GAME_NAME]" Group="" X="395" Y="8" Width="232" Height="27" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="16" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_GAME_NAME]" />
+      </Codes>
+    </Label>
+  </Labels>
+</Layout>

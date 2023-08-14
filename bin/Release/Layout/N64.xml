@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<Layout>
+  <Background>DefaultBak.png</Background>
+  <LayoutSub />
+  <ShowMiniInfo>False</ShowMiniInfo>
+  <Images>
+    <Image Name="T1ButtonP2.png" X="632" Y="112" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonYellow.png" X="232" Y="264" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1JoystickRed.png" X="112" Y="224" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonWhite.png" X="768" Y="112" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonBlue.png" X="360" Y="264" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonYellow.png" X="720" Y="264" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonGreen.png" X="784" Y="264" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="Logos\Nintendo.png" X="16" Y="520" Width="261" Height="65" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="Controllers\Nintendo 64.png" X="248" Y="328" Width="512" Height="256" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonGreen.png" X="296" Y="200" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonBlue.png" X="848" Y="264" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonRed.png" X="672" Y="304" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1JoystickRed.png" X="600" Y="224" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonRed.png" X="184" Y="304" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonBlue.png" X="848" Y="200" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonYellow.png" X="720" Y="200" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonYellow.png" X="232" Y="200" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonGreen.png" X="784" Y="200" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonGreen.png" X="296" Y="264" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonBlue.png" X="360" Y="200" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonRed.png" X="496" Y="112" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonRed.png" X="424" Y="112" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonP1.png" X="152" Y="112" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T1ButtonWhite.png" X="288" Y="112" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="Logos\Nintendo 64.png" X="752" Y="528" Width="258" Height="56" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+  </Images>
+  <ColorImages Enabled="False">
+    <ColorImage Name="Black" Image="T4ButtonBlack.png" />
+    <ColorImage Name="White" Image="T4ButtonWhite.png" />
+    <ColorImage Name="Red" Image="T4ButtonRed.png" />
+    <ColorImage Name="Yellow" Image="T4ButtonYellow.png" />
+    <ColorImage Name="Orange" Image="T4ButtonOrange.png" />
+    <ColorImage Name="Lime" Image="T4ButtonLime.png" />
+    <ColorImage Name="Green" Image="T4ButtonGreen.png" />
+    <ColorImage Name="Cyan" Image="T4ButtonCyan.png" />
+    <ColorImage Name="Blue" Image="T4ButtonBlue.png" />
+    <ColorImage Name="Purple" Image="T4ButtonPurple.png" />
+    <ColorImage Name="Violet" Image="T4ButtonViolet.png" />
+    <ColorImage Name="Magenta" Image="T4ButtonMagenta.png" />
+    <ColorImage Name="Brown" Image="T4ButtonBrown.png" />
+  </ColorImages>
+  <Labels>
+    <Label Name="B" Group="" X="584" Y="448" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="B" />
+      </Codes>
+    </Label>
+    <Label Name="Start" Group="" X="643" Y="128" Width="43" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Start" />
+      </Codes>
+    </Label>
+    <Label Name="Z" Group="" X="384" Y="296" Width="16" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Z" />
+      </Codes>
+    </Label>
+    <Label Name="A" Group="" X="744" Y="296" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="A" />
+      </Codes>
+    </Label>
+    <Label Name="Down" Group="" X="608" Y="288" Width="51" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Down" />
+      </Codes>
+    </Label>
+    <Label Name="Up" Group="" X="128" Y="200" Width="28" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Up" />
+      </Codes>
+    </Label>
+    <Label Name="[EMU_NUMPLAYERS]" Group="" X="418" Y="64" Width="178" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Emulator Code" Value="[EMU_NUMPLAYERS]" />
+      </Codes>
+    </Label>
+    <Label Name="Start" Group="" X="163" Y="128" Width="43" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Start" />
+      </Codes>
+    </Label>
+    <Label Name="C Left" Group="" X="576" Y="424" Width="53" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="C Left" />
+      </Codes>
+    </Label>
+    <Label Name="L" Group="" X="744" Y="224" Width="16" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="L" />
+      </Codes>
+    </Label>
+    <Label Name="Left" Group="" X="288" Y="440" Width="36" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Left" />
+      </Codes>
+    </Label>
+    <Label Name="Right" Group="" X="424" Y="440" Width="48" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Right" />
+      </Codes>
+    </Label>
+    <Label Name="B" Group="" X="808" Y="272" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="B" />
+      </Codes>
+    </Label>
+    <Label Name="[EMU_DESCRIPTION]" Group="" X="16" Y="584" Width="992" Height="184" Sizeable="True" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Emulator Code" Value="[EMU_DESCRIPTION]" />
+      </Codes>
+    </Label>
+    <Label Name="B" Group="" X="320" Y="272" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="B" />
+      </Codes>
+    </Label>
+    <Label Name="Left" Group="" X="64" Y="248" Width="36" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Left" />
+      </Codes>
+    </Label>
+    <Label Name="C Down" Group="" X="648" Y="448" Width="67" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="C Down" />
+      </Codes>
+    </Label>
+    <Label Name="[EMU_GAMENAME]" Group="" X="427" Y="32" Width="161" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Emulator Code" Value="[EMU_GAMENAME]" />
+      </Codes>
+    </Label>
+    <Label Name="Down" Group="" X="120" Y="288" Width="51" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Down" />
+      </Codes>
+    </Label>
+    <Label Name="L" Group="" X="256" Y="224" Width="16" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="L" />
+      </Codes>
+    </Label>
+    <Label Name="Up" Group="" X="360" Y="392" Width="28" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Up" />
+      </Codes>
+    </Label>
+    <Label Name="Z" Group="" X="872" Y="296" Width="16" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Z" />
+      </Codes>
+    </Label>
+    <Label Name="R" Group="" X="320" Y="208" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="R" />
+      </Codes>
+    </Label>
+    <Label Name="A" Group="" X="256" Y="296" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="A" />
+      </Codes>
+    </Label>
+    <Label Name="Up" Group="" X="616" Y="200" Width="28" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Up" />
+      </Codes>
+    </Label>
+    <Label Name="[EMU_EMUNAME]" Group="" X="409" Y="8" Width="197" Height="27" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="16" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Emulator Code" Value="[EMU_EMUNAME]" />
+      </Codes>
+    </Label>
+    <Label Name="R" Group="" X="808" Y="208" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="R" />
+      </Codes>
+    </Label>
+    <Label Name="Right" Group="" X="184" Y="248" Width="48" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Right" />
+      </Codes>
+    </Label>
+    <Label Name="Z" Group="" X="264" Y="360" Width="16" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Z" />
+      </Codes>
+    </Label>
+    <Label Name="R" Group="" X="616" Y="344" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="R" />
+      </Codes>
+    </Label>
+    <Label Name="L" Group="" X="360" Y="344" Width="16" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="L" />
+      </Codes>
+    </Label>
+    <Label Name="Start" Group="" X="491" Y="464" Width="43" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Start" />
+      </Codes>
+    </Label>
+    <Label Name="A" Group="" X="616" Y="480" Width="18" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="A" />
+      </Codes>
+    </Label>
+    <Label Name="Down" Group="" X="352" Y="480" Width="51" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Down" />
+      </Codes>
+    </Label>
+    <Label Name="C Up" Group="" X="640" Y="400" Width="44" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="C Up" />
+      </Codes>
+    </Label>
+    <Label Name="C Right" Group="" X="672" Y="424" Width="64" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="C Right" />
+      </Codes>
+    </Label>
+    <Label Name="Left" Group="" X="552" Y="248" Width="36" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Left" />
+      </Codes>
+    </Label>
+    <Label Name="Right" Group="" X="672" Y="248" Width="48" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Custom Text" Value="Right" />
+      </Codes>
+    </Label>
+  </Labels>
+</Layout>

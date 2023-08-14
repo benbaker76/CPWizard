@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<Layout>
+  <Background>HotRodBak.png</Background>
+  <LayoutSub />
+  <ShowMiniInfo>False</ShowMiniInfo>
+  <Images>
+    <Image Name="T2JoystickBlack.png" X="126" Y="182" Width="84" Height="84" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2JoystickBlack.png" X="622" Y="182" Width="84" Height="84" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonP1.png" X="432" Y="104" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonP2.png" X="528" Y="104" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="272" Y="192" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="336" Y="192" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="400" Y="192" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="272" Y="256" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="336" Y="256" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="400" Y="256" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="768" Y="192" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="832" Y="192" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="896" Y="192" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="768" Y="256" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="832" Y="256" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="896" Y="256" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="216" Y="312" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T2ButtonBlack.png" X="712" Y="312" Width="64" Height="64" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+  </Images>
+  <ColorImages Enabled="False">
+    <ColorImage Name="Black" Image="T4ButtonBlack.png" />
+    <ColorImage Name="White" Image="T4ButtonWhite.png" />
+    <ColorImage Name="Red" Image="T4ButtonRed.png" />
+    <ColorImage Name="Yellow" Image="T4ButtonYellow.png" />
+    <ColorImage Name="Orange" Image="T4ButtonOrange.png" />
+    <ColorImage Name="Lime" Image="T4ButtonLime.png" />
+    <ColorImage Name="Green" Image="T4ButtonGreen.png" />
+    <ColorImage Name="Cyan" Image="T4ButtonCyan.png" />
+    <ColorImage Name="Blue" Image="T4ButtonBlue.png" />
+    <ColorImage Name="Purple" Image="T4ButtonPurple.png" />
+    <ColorImage Name="Violet" Image="T4ButtonViolet.png" />
+    <ColorImage Name="Magenta" Image="T4ButtonMagenta.png" />
+    <ColorImage Name="Brown" Image="T4ButtonBrown.png" />
+  </ColorImages>
+  <Labels>
+    <Label Name="[KEYCODE_UP]" Group="" X="98" Y="168" Width="130" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_UP]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_GAME_NAME]" Group="" X="393" Y="8" Width="229" Height="27" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="15.75" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_GAME_NAME]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_LSHIFT]" Group="" X="219" Y="288" Width="165" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_LSHIFT]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_MISC_DETAILS]" Group="" X="16" Y="560" Width="992" Height="80" Sizeable="True" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_MISC_DETAILS]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_D]" Group="" X="515" Y="216" Width="119" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_D]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_LALT]" Group="" X="290" Y="216" Width="150" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_LALT]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_LCONTROL]" Group="" X="203" Y="200" Width="199" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_LCONTROL]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_Z]" Group="" X="306" Y="272" Width="118" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_Z]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_S]" Group="" X="802" Y="216" Width="118" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_S]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_P2_INPUTTYPE]" Group="" X="795" Y="448" Width="189" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_P2_INPUTTYPE]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_I]" Group="" X="810" Y="272" Width="112" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_I]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_Q]" Group="" X="866" Y="200" Width="120" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_Q]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_LEFT]" Group="" X="-13" Y="216" Width="149" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_LEFT]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_NUM_PLAYERS]" Group="" X="410" Y="32" Width="192" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_NUM_PLAYERS]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_SPACE]" Group="" X="346" Y="200" Width="164" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_SPACE]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_X]" Group="" X="370" Y="288" Width="118" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_X]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_G]" Group="" X="690" Y="216" Width="120" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_G]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_DOWN]" Group="" X="82" Y="264" Width="160" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_DOWN]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_J]" Group="" X="683" Y="336" Width="117" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_J]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_C]" Group="" X="187" Y="336" Width="119" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_C]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_W]" Group="" X="739" Y="288" Width="123" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_W]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_A]" Group="" X="739" Y="200" Width="119" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_A]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_RIGHT]" Group="" X="203" Y="216" Width="159" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_RIGHT]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_K]" Group="" X="867" Y="288" Width="119" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_K]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_R]" Group="" X="603" Y="168" Width="119" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_R]" />
+      </Codes>
+    </Label>
+    <Label Name="[KEYCODE_F]" Group="" X="602" Y="264" Width="118" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[KEYCODE_F]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_P1_INPUTTYPE]" Group="" X="35" Y="448" Width="189" Height="20" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Left" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_P1_INPUTTYPE]" />
+      </Codes>
+    </Label>
+  </Labels>
+</Layout>

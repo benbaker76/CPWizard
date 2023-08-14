@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Profile>
+  <Enabled>False</Enabled>
+  <Name>Project 64</Name>
+  <Type>Emulator</Type>
+  <Layout>N64</Layout>
+  <LayoutOverride>N64</LayoutOverride>
+  <LayoutSub />
+  <Labels>N64</Labels>
+  <Database>N64</Database>
+  <Executable>Project64.exe</Executable>
+  <WindowTitle />
+  <WindowClass />
+  <UseExe>True</UseExe>
+  <Screenshot>True</Screenshot>
+  <Maximize>True</Maximize>
+  <Minimize>True</Minimize>
+  <ShowKey />
+  <HideKey />
+  <ShowSendKeys>{ESCAPE}</ShowSendKeys>
+  <HideSendKeys>{ESCAPE}</HideSendKeys>
+  <Manuals>C:\Artwork\N64\Manuals</Manuals>
+  <OpCards>C:\Artwork\N64\OpCards</OpCards>
+  <Snaps>C:\Artwork\N64\Snaps</Snaps>
+  <Titles>C:\Artwork\N64\Titles</Titles>
+  <Carts>C:\Artwork\N64\Carts</Carts>
+  <Boxes>C:\Artwork\N64\Boxes</Boxes>
+  <Nfo>C:\Artwork\N64\Nfo</Nfo>
+</Profile>

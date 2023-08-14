@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Layout>
+  <Background>MahjongBak.png</Background>
+  <LayoutSub />
+  <ShowMiniInfo>False</ShowMiniInfo>
+  <Images />
+  <ColorImages Enabled="False">
+    <ColorImage Name="Black" Image="T4ButtonBlack.png" />
+    <ColorImage Name="White" Image="T4ButtonWhite.png" />
+    <ColorImage Name="Red" Image="T4ButtonRed.png" />
+    <ColorImage Name="Yellow" Image="T4ButtonYellow.png" />
+    <ColorImage Name="Orange" Image="T4ButtonOrange.png" />
+    <ColorImage Name="Lime" Image="T4ButtonLime.png" />
+    <ColorImage Name="Green" Image="T4ButtonGreen.png" />
+    <ColorImage Name="Cyan" Image="T4ButtonCyan.png" />
+    <ColorImage Name="Blue" Image="T4ButtonBlue.png" />
+    <ColorImage Name="Purple" Image="T4ButtonPurple.png" />
+    <ColorImage Name="Violet" Image="T4ButtonViolet.png" />
+    <ColorImage Name="Magenta" Image="T4ButtonMagenta.png" />
+    <ColorImage Name="Brown" Image="T4ButtonBrown.png" />
+  </ColorImages>
+  <Labels>
+    <Label Name="[MISC_GAME_NAME]" Group="" X="393" Y="120" Width="232" Height="27" Sizeable="False" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="16" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_GAME_NAME]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_MISC_DETAILS]" Group="" X="16" Y="600" Width="992" Height="144" Sizeable="True" Arrow="True" Spot="True">
+      <Font Name="Arial" Size="12" FontStyle="Bold" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_MISC_DETAILS]" />
+      </Codes>
+    </Label>
+  </Labels>
+</Layout>

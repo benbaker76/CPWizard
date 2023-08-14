@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Profile>
+  <Enabled>False</Enabled>
+  <Name>Far Cry</Name>
+  <Type>Game</Type>
+  <Layout>Keyboard</Layout>
+  <LayoutOverride />
+  <LayoutSub />
+  <Labels>PC</Labels>
+  <Database />
+  <Executable>FarCry.exe</Executable>
+  <WindowTitle />
+  <WindowClass />
+  <UseExe>True</UseExe>
+  <Screenshot>True</Screenshot>
+  <Maximize>True</Maximize>
+  <Minimize>True</Minimize>
+  <ShowKey />
+  <HideKey />
+  <ShowSendKeys />
+  <HideSendKeys />
+  <Manuals />
+  <OpCards />
+  <Snaps />
+  <Titles />
+  <Carts />
+  <Boxes />
+  <Nfo />
+</Profile>

@@ -1,0 +1,11 @@
+Q.   Why are there only parent roms in the dat files?
+A.   This will change int he future, however, most of the clones have the same controls as the parent.  We suggest creating an algorithm which check for control information of the rom in question.  If the information isn't available use the output from mame's -listxml to determine if the game has a cloneof parent.  If there is no info there check that clone's clone of and romof.  If so use that control info.  If there is no control info for the cloneof then check the romof parent.  Again, check recursively here too.  Why check recursivley?  There are revisions in mame.  For example, neogeo is a parent rom.  For the most part all neogeo games have the same controls so neogeo is in the dat file.  now, say there is a game called "MyGame" that is a romof neogeo.  Also let's say theere actually is "MyGame (Rev 1) - mygame1" and "MyGame (rev 2) - mygame2".  Rev 1 will have a romof "neogeo".  Rev2 will have a romof "mygame2".  So you see you have to recurse all the way back to neogeo to get the control information for Rev 2.  There are many instances of this in mame.
+
+Q.   What's up with &#179;, &amp;, and &apos; in the XML file?
+A.   & and ' cause issues in some areas like miscDetails and gamename.  So the html representation is used.  Just do a text replace to get rid of.  Othercharacters either come from mame or from M$ word autocomplete.
+
+Q.   The XML file is not a valid XML file, my parser errors on a character!  What's going on?
+A.   Some volunteers use Microsoft Word to proof their descriptions of a game before they enter it into the database.  Word's AutoComplete sometimes changes characters to something that isn't of normal ascii value.  If you run into this please contact the admin of controls.dat with the information about the error.
+
+Q.   How does the controls.dat version number work?
+A.   The version is as follows:  mame_version.dat_build.  0.81.3 would be for mame 0.83, dat build 3 for this mame version.

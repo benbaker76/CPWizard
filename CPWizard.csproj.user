@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>http://localhost/CPWizard/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>-game "Addams Family" -emu "Dynamic" -reload -show</StartArguments>
+  </PropertyGroup>
+</Project>
