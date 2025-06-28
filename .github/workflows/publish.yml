@@ -50,15 +50,13 @@ jobs:
       - name: Build Inno Setup installer
         uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
         with:
-          path: '${{ env.APP_NAME }}/${{ env.APP_NAME }}.iss'
-          options: '/O+'
+           path: "${{ env.ARTIFACT_ROOT }}/Setup/${{ env.APP_NAME }}.iss"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v${{ steps.get-version.outputs.version }}
           name: Release ${{ steps.get-version.outputs.version }}
-          files: |
-            Setup/${{ env.APP_NAME }}Setup.exe
+          files: ${{ env.ARTIFACT_ROOT }}/Setup/${{ env.APP_NAME }}Setup.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
