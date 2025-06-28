@@ -1,10 +1,12 @@
 ; -- CPWizard.iss --
 
+#define MyAppVersion ""
+
 [Setup]
 AppName=CPWizard
-AppVerName=CPWizard 2.69
-AppPublisher=Headsoft
-DefaultDirName={sd}\CPWizard
+AppVerName=CPWizard {#MyAppVersion}
+AppPublisher=Ben Baker
+DefaultDirName={autopf}\CPWizard
 DefaultGroupName=CPWizard
 UninstallDisplayIcon={app}\CPWizard.exe
 Compression=lzma
@@ -15,34 +17,11 @@ WizardImageFile=WizardImage.bmp
 WizardSmallImageFile=WizardSmallImage.bmp
 
 [Files]
-Source: "CPWizard.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "CPWizard.chm"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "net.exe";  DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "MAME32.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "MAME64.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "HiToText.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "HiToText.xml"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "ICSharpCode.SharpZipLib.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "SlimDX.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
-Source: "..\..\ReadMe.md"; DestDir: "{app}"; Flags: isreadme; CopyMode: alwaysoverwrite
-Source: "Media\*"; DestDir: "{app}\Media";   Flags: recursesubdirs createallsubdirs
-Source: "Data\*"; DestDir: "{app}\Data"; Flags: recursesubdirs createallsubdirs
-Source: "Layout\*"; DestDir: "{app}\Layout"; Flags: recursesubdirs createallsubdirs
+Source: "*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
+Source: "README.md"; DestDir: "{app}"; Flags: isreadme; CopyMode: alwaysoverwrite
 
 [UninstallDelete]
-Type: files; Name: "{app}\CPWizard.exe"
-Type: files; Name: "{app}\CPWizard.ini"
-Type: files; Name: "{app}\CPWizard.chm"
-Type: files; Name: "{app}\net.exe"
-Type: files; Name: "{app}\MAME32.dll"
-Type: files; Name: "{app}\MAME64.dll"
-Type: files; Name: "{app}\ICSharpCode.SharpZipLib.dll"
-Type: files; Name: "{app}\SlimDX.dll"
-Type: files; Name: "{app}\ReadMe.txt"
-Type: files; Name: "{app}\CPWizard.log"
-Type: filesandordirs; Name: "{app}\Media\*"
-Type: filesandordirs; Name: "{app}\Data\*"
-Type: filesandordirs; Name: "{app}\Layout\*"
+Type: filesandordirs; Name: "{app}\*"
 
 [Registry]
 ;Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"; ValueType: string; ValueName: "{app}\CPWizard.exe"; ValueData: RUNASADMIN; Flags: uninsdeletekey
