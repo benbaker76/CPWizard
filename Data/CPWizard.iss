@@ -18,6 +18,7 @@ WizardSmallImageFile=WizardSmallImage.bmp
 
 [Files]
 Source: "CPWizard.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "CPWizard.runtimeconfig.json"; DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "CPWizard.chm"; DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "net.exe";  DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "*.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
