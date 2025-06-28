@@ -17,7 +17,7 @@ WizardImageFile=WizardImage.bmp
 WizardSmallImageFile=WizardSmallImage.bmp
 
 [Files]
-Source: "*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
+Source: "*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion; Excludes: "*.iss;Setup\*"
 Source: "README.md"; DestDir: "{app}"; Flags: isreadme; CopyMode: alwaysoverwrite
 
 [UninstallDelete]
