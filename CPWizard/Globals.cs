@@ -429,13 +429,14 @@ namespace CPWizard
 		public class Folders
 		{
 			public static string App = null;
-			public static string Media = null;
+            public static string UserData = null;
+            public static string Media = null;
 			public static string Data = null;
-			public static string Database = null;
+            public static string Layout = null;
+            public static string Database = null;
 			public static string Labels = null;
 			public static string Profiles = null;
 			public static string LayoutMaps = null;
-			public static string Layout = null;
 			public static string CommandDat = null;
 			public static string Logos = null;
 			public static string Manufacturers = null;

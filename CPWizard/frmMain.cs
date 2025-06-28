@@ -964,7 +964,7 @@ namespace CPWizard
 		{
             var version = Assembly.GetExecutingAssembly().GetName().Version;
 
-            this.Text = String.Format("CPWizard {0} [{1}] - Written by Ben Baker", version.ToString(3), (Globals.Layout == null ? "None" : Settings.Layout.Name));
+            this.Text = String.Format("CPWizard {0} [{1}]", version.ToString(3), (Globals.Layout == null ? "None" : Settings.Layout.Name));
 		}
 
 		public void SetMenuEnabled(bool enabled)

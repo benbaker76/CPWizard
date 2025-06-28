@@ -1,10 +1,11 @@
 ; -- CPWizard.iss --
 
-#define MyAppVersion ""
+#define AppName "CPWizard"
+#define AppVersion ""
 
 [Setup]
 AppName=CPWizard
-AppVerName=CPWizard {#MyAppVersion}
+AppVerName=CPWizard {#AppVersion}
 AppPublisher=Ben Baker
 DefaultDirName={autopf}\CPWizard
 DefaultGroupName=CPWizard
@@ -25,12 +26,23 @@ Source: "*.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "HiToText.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "HiToText.xml"; DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "README.md"; DestDir: "{app}"; Flags: isreadme; CopyMode: alwaysoverwrite
-Source: "Media\*"; DestDir: "{app}\Media";   Flags: recursesubdirs createallsubdirs
-Source: "Data\*"; DestDir: "{app}\Data"; Flags: recursesubdirs createallsubdirs
-Source: "Layout\*"; DestDir: "{app}\Layout"; Flags: recursesubdirs createallsubdirs
+
+Source: "Media\*"; DestDir: "{localappdata}\{#AppName}\Media";   Flags: recursesubdirs createallsubdirs
+Source: "Data\*"; DestDir: "{localappdata}\{#AppName}\Data"; Flags: recursesubdirs createallsubdirs
+Source: "Layout\*"; DestDir: "{localappdata}\{#AppName}\Layout"; Flags: recursesubdirs createallsubdirs
 
 [UninstallDelete]
-Type: filesandordirs; Name: "{app}\*"
+Type: files; Name: "{app}\CPWizard.exe"
+Type: files; Name: "{app}\CPWizard.runtimeconfig.json"
+Type: files; Name: "{app}\CPWizard.ini"
+Type: files; Name: "{app}\CPWizard.chm"
+Type: files; Name: "{app}\net.exe"
+Type: files; Name: "{app}\*.dll"
+Type: files; Name: "{app}\README.md"
+Type: files; Name: "{app}\CPWizard.log"
+Type: filesandordirs; Name: "{localappdata}\{#AppName}\Media\*"
+Type: filesandordirs; Name: "{localappdata}\{#AppName}\Data\*"
+Type: filesandordirs; Name: "{localappdata}\{#AppName}\Layout\*"
 
 [Registry]
 ;Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"; ValueType: string; ValueName: "{app}\CPWizard.exe"; ValueData: RUNASADMIN; Flags: uninsdeletekey

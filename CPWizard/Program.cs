@@ -36,17 +36,21 @@ namespace CPWizard
 
 			try
 			{
-				Settings.Folders.App = Application.StartupPath;
-				Settings.Folders.Media = Path.Combine(Settings.Folders.App, "Media");
-				Settings.Folders.Data = Path.Combine(Settings.Folders.App, "Data");
-				Settings.Folders.Database = Path.Combine(Settings.Folders.Data, "Database");
+                Settings.Folders.App = Application.StartupPath;
+                Settings.Folders.UserData = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "CPWizard");
+
+                Settings.Folders.Media = Path.Combine(Settings.Folders.UserData, "Media");
+				Settings.Folders.Data = Path.Combine(Settings.Folders.UserData, "Data");
+                Settings.Folders.Layout = Path.Combine(Settings.Folders.UserData, "Layout");
+
+                Settings.Folders.Database = Path.Combine(Settings.Folders.Data, "Database");
 				Settings.Folders.Labels = Path.Combine(Settings.Folders.Data, "Labels");
 				Settings.Folders.Profiles = Path.Combine(Settings.Folders.Data, "Profiles");
 				Settings.Folders.LayoutMaps = Path.Combine(Settings.Folders.Data, "LayoutMaps");
-				Settings.Folders.Layout = Path.Combine(Settings.Folders.App, "Layout");
-				Settings.Files.LogFile = Path.Combine(Settings.Folders.App, "CPWizard.log");
+
+				Settings.Files.LogFile = Path.Combine(Settings.Folders.UserData, "CPWizard.log");
 				Settings.Files.HelpFile = Path.Combine(Settings.Folders.App, "CPWizard.chm");
-				Settings.Files.Ini = Path.Combine(Settings.Folders.App, "CPWizard.ini");
+				Settings.Files.Ini = Path.Combine(Settings.Folders.UserData, "CPWizard.ini");
 				Settings.Files.Uza = Path.Combine(Settings.Folders.App, "uza.exe");
 				Settings.Files.FilterXml = Path.Combine(Settings.Folders.Data, "[LIST_MAME_FILTER].xml");
 				Settings.Files.ControlsDat = Path.Combine(Settings.Folders.Data, "controls.xml");
@@ -153,8 +157,6 @@ namespace CPWizard
 
 						Application.Run(Globals.MainForm);
 					}
-
-
 				}
 
 			}

@@ -48,10 +48,12 @@ jobs:
           Copy-Item -Path README.md, LICENSE -Destination "$env:ARTIFACT_ROOT\$env:APP_NAME" -Force
 
       - name: Build Inno Setup installer
-        uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
+        uses: Minionguyjpro/Inno-Setup-Action@v1.2.6
         with:
           path: ${{ env.ARTIFACT_ROOT }}/${{ env.APP_NAME }}/${{ env.APP_NAME }}.iss
-          options: '/O+ /DMyAppVersion="${{ steps.get-version.outputs.version }}"'
+          options: |
+            /O+
+            /DAppVersion="${{ steps.get-version.outputs.version }}"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
