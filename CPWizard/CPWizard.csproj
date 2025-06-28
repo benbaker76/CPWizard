@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Watermark.png" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\Watermark.png" />
+		<Content Include="../README.md" Pack="true" PackagePath="\" />
+		<None Include="../LICENSE" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="SlimDX">
+	    <HintPath>libs\SlimDX.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Data.OleDb" Version="9.0.6" />
+	  <PackageReference Include="System.Management" Version="9.0.6" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<Version>2.69.0</Version>
+		<AssemblyVersion>2.69.0.0</AssemblyVersion>
+		<FileVersion>2.69.0.0</FileVersion>
+		<PackageVersion>2.69.0</PackageVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+</Project>

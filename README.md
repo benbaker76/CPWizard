@@ -112,31 +112,31 @@ You can get artwork like PCB's, Artwork Preview, Character Select etc.
 
 ## Screenshots
 
-![](/images/cpw01.png)
+![](/.github/img/CPWizard01.png?raw=true)
 
-![](/images/cpw02.png)
+![](/.github/img/CPWizard02.png?raw=true)
 
-![](/images/cpw03.png)
+![](/.github/img/CPWizard03.png?raw=true)
 
-![](/images/cpw04.png)
+![](/.github/img/CPWizard04.png?raw=true)
 
-![](/images/cpw05.png)
+![](/.github/img/CPWizard05.png?raw=true)
 
-![](/images/cpw06.png)
+![](/.github/img/CPWizard06.png?raw=true)
 
-![](/images/cpw07.png)
+![](/.github/img/CPWizard07.png?raw=true)
 
-![](/images/cpw08.png)
+![](/.github/img/CPWizard08.png?raw=true)
 
-![](/images/cpwnew01.png)
+![](/.github/img/CPWizard09.png?raw=true)
 
-![](/images/cpwnew02.png)
+![](/.github/img/CPWizard10.png?raw=true)
 
-![](/images/cpwnew03.png)
+![](/.github/img/CPWizard11.png?raw=true)
 
-![](/images/cpwnew04.png)
+![](/.github/img/CPWizard12.png?raw=true)
 
-![](/images/cpwnew05.png)
+![](/.github/img/CPWizard13.png?raw=true)
 
 ## Version History
 
