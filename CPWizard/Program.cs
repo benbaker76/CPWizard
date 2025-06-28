@@ -25,7 +25,8 @@ namespace CPWizard
 		[STAThread]
 		static void Main(string[] args)
 		{
-			Application.EnableVisualStyles();
+            ApplicationConfiguration.Initialize();
+            Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 
 			// Create new stopwatch.

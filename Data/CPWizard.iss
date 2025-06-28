@@ -1,7 +1,6 @@
 ; -- CPWizard.iss --
 
 #define AppName "CPWizard"
-#define AppVersion ""
 
 [Setup]
 AppName=CPWizard
@@ -47,8 +46,8 @@ Type: filesandordirs; Name: "{localappdata}\{#AppName}\Layout\*"
 [Registry]
 ;Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"; ValueType: string; ValueName: "{app}\CPWizard.exe"; ValueData: RUNASADMIN; Flags: uninsdeletekey
 Root: HKLM; Subkey: "Software\Microsoft\Windows\CurrentVersion\Run\CPWizard"; Flags: uninsdeletekey noerror
-Root: HKLM; Subkey: "Software\GPL Ghostscript\8.54"; ValueType: string; ValueName: GS_DLL; ValueData: "{pf}\gs\gs\bin\gsdll32.dll";
-Root: HKLM; Subkey: "Software\GPL Ghostscript\8.54"; ValueType: string; ValueName: GS_LIB; ValueData: "{pf}\gs\gs\lib;{pf}\gs\fonts;{pf}\gs\gs\Resource";
+Root: HKLM; Subkey: "Software\GPL Ghostscript\8.54"; ValueType: string; ValueName: GS_DLL; ValueData: "{autopf}\gs\gs\bin\gsdll32.dll";
+Root: HKLM; Subkey: "Software\GPL Ghostscript\8.54"; ValueType: string; ValueName: GS_LIB; ValueData: "{autopf}\gs\gs\lib;{autopf}\gs\fonts;{autopf}\gs\gs\Resource";
 
 [Code]
 function InitializeSetup(): Boolean;
