@@ -17,8 +17,16 @@ WizardImageFile=WizardImage.bmp
 WizardSmallImageFile=WizardSmallImage.bmp
 
 [Files]
-Source: "*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion; Excludes: "*.iss;Setup\*"
+Source: "CPWizard.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "CPWizard.chm"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "net.exe";  DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "*.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "HiToText.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "HiToText.xml"; DestDir: "{app}"; CopyMode: alwaysoverwrite
 Source: "README.md"; DestDir: "{app}"; Flags: isreadme; CopyMode: alwaysoverwrite
+Source: "Media\*"; DestDir: "{app}\Media";   Flags: recursesubdirs createallsubdirs
+Source: "Data\*"; DestDir: "{app}\Data"; Flags: recursesubdirs createallsubdirs
+Source: "Layout\*"; DestDir: "{app}\Layout"; Flags: recursesubdirs createallsubdirs
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{app}\*"
