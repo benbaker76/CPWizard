@@ -53,7 +53,7 @@ jobs:
           path: ${{ env.ARTIFACT_ROOT }}/${{ env.APP_NAME }}/${{ env.APP_NAME }}.iss
           options: |
             /O+
-            /DAppVersion="${{ steps.get-version.outputs.version }}"
+            /DAppVersion=${{ steps.get-version.outputs.version }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
