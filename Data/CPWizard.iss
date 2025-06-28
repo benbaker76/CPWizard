@@ -33,7 +33,6 @@ Source: "Layout\*"; DestDir: "{localappdata}\{#AppName}\Layout"; Flags: recurses
 [UninstallDelete]
 Type: files; Name: "{app}\CPWizard.exe"
 Type: files; Name: "{app}\CPWizard.runtimeconfig.json"
-Type: files; Name: "{app}\CPWizard.ini"
 Type: files; Name: "{app}\CPWizard.chm"
 Type: files; Name: "{app}\net.exe"
 Type: files; Name: "{app}\*.dll"
