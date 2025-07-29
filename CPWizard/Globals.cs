@@ -165,7 +165,7 @@ namespace CPWizard
 		public static KeyboardHook KeyboardHook = null;
 		//public static MouseHook MouseHook = null;
 
-		public static DirectInput DirectInput = null;
+		public static DirectInputManager DirectInput = null;
 		public static MCERemote MCERemote = null;
 		public static InputManager InputManager = null;
 

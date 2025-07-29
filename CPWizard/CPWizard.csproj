@@ -27,6 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
 	  <PackageReference Include="System.Data.OleDb" Version="9.0.6" />
 	  <PackageReference Include="System.Management" Version="9.0.6" />
 	</ItemGroup>

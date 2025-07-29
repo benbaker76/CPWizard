@@ -519,7 +519,7 @@ namespace CPWizard
             tsslHeadsoftLogo.ImageScaling = ToolStripItemImageScaling.None;
             tsslHeadsoftLogo.IsLink = true;
             tsslHeadsoftLogo.Name = "tsslHeadsoftLogo";
-            tsslHeadsoftLogo.Size = new Size(148, 17);
+            tsslHeadsoftLogo.Size = new Size(160, 17);
             tsslHeadsoftLogo.Click += tsslHeadsoftLogo_Click;
             // 
             // tsslInfo1

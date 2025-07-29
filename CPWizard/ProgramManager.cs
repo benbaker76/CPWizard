@@ -90,7 +90,7 @@ namespace CPWizard
 				//LogFile.WriteLine("Initializing Mouse Hook");
 				//Global.MouseHook = new MouseHook(Globals.MainForm);
 				LogFile.WriteLine("Initializing Direct Input");
-				Globals.DirectInput = new DirectInput(Globals.MainForm, null);
+				Globals.DirectInput = new DirectInputManager(Globals.MainForm, null);
 				Globals.DirectInput.ResourceLoad();
 				LogFile.WriteLine("Initializing MCE Remote");
 				Globals.MCERemote = new MCERemote(Globals.MainForm);
