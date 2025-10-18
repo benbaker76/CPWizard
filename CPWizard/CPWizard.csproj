@@ -21,22 +21,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Reference Include="SlimDX">
-	    <HintPath>libs\SlimDX.dll</HintPath>
-	  </Reference>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
 	  <PackageReference Include="System.Data.OleDb" Version="9.0.6" />
 	  <PackageReference Include="System.Management" Version="9.0.6" />
 	</ItemGroup>
 
 	<PropertyGroup>
-		<Version>2.70.0</Version>
-		<AssemblyVersion>2.70.0.0</AssemblyVersion>
-		<FileVersion>2.70.0.0</FileVersion>
-		<PackageVersion>2.70.0</PackageVersion>
+		<Version>2.71.0</Version>
+		<AssemblyVersion>2.71.0.0</AssemblyVersion>
+		<FileVersion>2.71.0.0</FileVersion>
+		<PackageVersion>2.71.0</PackageVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<ApplicationIcon>App.ico</ApplicationIcon>
 	</PropertyGroup>
